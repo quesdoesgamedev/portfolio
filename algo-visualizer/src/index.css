@@ -1,0 +1,75 @@
+/* =====================
+   CSS Custom Properties
+   ===================== */
+:root {
+  /* Colors */
+  --color-bg: #0f1117;
+  --color-surface: #1a1d27;
+  --color-border: #2a2d3a;
+  --color-text: #9ca3af;
+  --color-text-strong: #f3f4f6;
+  --color-text-muted: #6b7280;
+
+  /* Bar states */
+  --color-bar-default: #3b82f6;   /* blue  */
+  --color-bar-comparing: #f59e0b; /* amber */
+  --color-bar-sorted: #22c55e;    /* green */
+  --color-bar-pivot: #ef4444;     /* red   */
+
+  /* Buttons */
+  --color-btn-bg: #2a2d3a;
+  --color-btn-hover: #383b4d;
+  --color-btn-text: #f3f4f6;
+  --color-btn-primary-bg: #3b82f6;
+  --color-btn-primary-hover: #2563eb;
+
+  /* Typography */
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* =====================
+   Reset
+   ===================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  background: var(--color-btn-bg);
+  color: var(--color-btn-text);
+  transition: background 0.15s;
+}
+
+button:hover {
+  background: var(--color-btn-hover);
+}
+
+button.primary {
+  background: var(--color-btn-primary-bg);
+}
+
+button.primary:hover {
+  background: var(--color-btn-primary-hover);
+}

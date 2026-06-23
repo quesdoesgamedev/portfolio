@@ -1,0 +1,53 @@
+.sort-visualizer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ── Bar container ── */
+.bar-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 400px;
+  padding: 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ── Individual bar ── */
+.bar {
+  flex: 1;
+  border-radius: 2px 2px 0 0;
+  transition: height 0.05s ease, background-color 0.1s ease;
+  background-color: var(--color-bar-default);
+  min-width: 2px;
+}
+
+.bar--default   { background-color: var(--color-bar-default);   }
+.bar--comparing { background-color: var(--color-bar-comparing); }
+.bar--sorted    { background-color: var(--color-bar-sorted);    }
+.bar--pivot     { background-color: var(--color-bar-pivot);     }
+
+/* ── Controls ── */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.controls label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.controls input[type='range'] {
+  width: 120px;
+  accent-color: var(--color-btn-primary-bg);
+}
