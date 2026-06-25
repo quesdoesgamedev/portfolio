@@ -9,6 +9,7 @@ A collection of personal and portfolio projects spanning web development, softwa
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
 | [algo-visualizer](./algo-visualizer) | Interactive sorting and pathfinding algorithm visualizer with step-through mode | React, TypeScript, Vite | 🚧 In Progress |
+| [algo-visualizer](./algo-visualizer) | Interactive sorting and pathfinding algorithm visualizer with step-through mode | React, TypeScript, Vite | 🚧 In Progress |
 
 ---
 
