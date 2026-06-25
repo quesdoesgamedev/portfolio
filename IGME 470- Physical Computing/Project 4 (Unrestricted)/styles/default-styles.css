@@ -1,0 +1,111 @@
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1,
+h2,
+p,
+button,
+#status {
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+.mobile-only {
+    display: none;
+  }
+  
+  .desktop-only {
+    display: inline;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .mobile-only {
+      display: inline;
+    }
+  
+    .desktop-only {
+      display: none;
+    }
+  }
+  
+
+@media screen and (max-width: 600px) {
+    h1.title {
+        font-size: 1.2rem;
+    }
+
+    h2.subtitle {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 0.75rem;
+        margin: 0.5rem;
+    }
+
+    #status {
+        font-size: 0.75rem;
+    }
+}
+
+
+body {
+    background-image: url('../media/chest.jpg');
+    background-size: cover;
+    /* Fill screen, crop if needed */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Don't tile */
+    font-family: "Press Start 2P", system-ui;
+}
+
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Press Start 2P", system-ui;
+}
+
+body>.section {
+    flex: 1;
+    /* This makes the content take up remaining space */
+}
+
+#footer {
+    padding: 1rem;
+    background-color: #382f24;
+}
+
+#footer-text {
+    color: white;
+}
+
+#controls-background {
+    background-color: #382f24;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: "Press Start 2P", system-ui;
+    white-space: normal !important;
+  text-align: center;
+  word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+#status {
+    margin-top: 1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- Bulma Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="./styles/styles-2.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav class="navbar has-shadow">
+        <!-- logo / brand-->
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="media/logo.png" alt="Audio Visualizer Logo">
+            </a>
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+
+        <div class="navbar-start">
+            <div class="navbar-menu" id="navbar-links">
+                <div class="navbar-end">
+                    <a class="navbar-item is-hoverable" href="index.html">
+                        App
+                    </a>
+
+                    <a class="navbar-item is-hoverable" href="about.html">
+                        About
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- App  -->
+    <div class="container px-5">
+        <section class="section box has-background-primary">
+            <h1 class="is-size-1 has-text-centered title">???</h1>
+
+            <img src="media/halo-lead.webp" alt="Halo Master Chief">
+
+            <p>Welcome to my Halo-themed audio visualizer! This project utilizes TypeScript, Bulma, and is transpiled
+                using Webpack.</p>
+            <p>Contact: cgb2920@rit.edu</p>
+        </section>
+    </div>
+
+    <script src="dist/bundle.js"></script>
+    <script src="src/hambuger.js"></script>
+</body>
+
+</html>

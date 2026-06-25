@@ -1,0 +1,147 @@
+
+
+#wrapper {
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr 50px;
+    grid-template-areas: 
+        "header"
+        "col1"
+        "col2"
+        "footer";
+}
+
+.shape {
+    max-width: 100%;
+    margin-top: -20px;
+    margin-bottom: -300px;
+    margin-left: -70px;
+    
+}
+
+.overlap {
+    background-color: #f25822;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -40px;
+    margin-right: -40px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 760px) {
+    #wrapper {
+        grid-template-rows: 0.2fr 10fr 0.2fr;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+        grid-template-areas: 
+            "header header"
+            "col1 col2"
+            "footer footer";
+    }
+
+    .overlap {
+        background-color: f25822;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: -80px;
+        margin-right: -20px;
+        z-index: 1;
+    }
+
+    .shape {
+        max-width: 70%;
+        margin-top: -220px;
+        margin-bottom: -300px;
+        margin-left: -70px;
+    }
+}
+
+@media (min-width: 760px) {
+    
+}
+
+#column1 {
+    grid-area: col1;
+}
+
+.portrait {
+    max-width: 100%;
+}
+
+#column2 {
+    grid-area: col2;
+}
+
+.column {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: antiquewhite;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2em;
+    background-color: #1e1e1e;
+}
+
+h1 {
+    display: block;
+    margin-left: -220px;
+    color: #E0D3DE;
+    font-size: 2.5rem;
+}
+
+h2{
+    text-align: left;
+}
+
+#colorchange {
+    color: #f25822;
+}
+
+li {
+    list-style-image: url('/media/list-arrow.png');
+    color:#607B7D;
+}
+
+/*.list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list-li {
+    background: url('/media/list-arrow.png') no-repeat top left;
+    margin: 0;
+    padding: 4px 0 4px 20px;
+    list-style: none;
+    color:#607B7D;
+  }*/
+
+a:link{
+    color: #233D4D;
+}
+
+a:visited {
+    color:#E0D3DE
+}
+
+hr {
+    color:#f25822;
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Halo Audio Visualizer",  
+    "audioFiles": [
+      {
+        "fileName": "media/Halo Theme Song.mp3",
+        "trackName": "Halo Theme Song",
+        "length": "3:01"
+      },
+      {
+        "fileName": "media/Covenant Dance.mp3",
+        "trackName": "Covenant Dance",
+        "length": "1:57"
+      },
+      {
+        "fileName": "media/Through The Trees.mp3",
+        "trackName": "Through The Trees",
+        "length": "3:05"
+      }
+    ],
+    "instructions": "Use the controls to adjust the visualization settings. Play the audio files to see the visual effects react to the music."
+  }
+  

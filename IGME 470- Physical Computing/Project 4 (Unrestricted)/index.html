@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ChestLock©</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="styles/default-styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <script src="src/main.js"></script>
+</head>
+
+<body>
+  <h1 class="title has-text-light has-text-centered my-6">Welcome to ChestLock©!</h1>
+  <section class="section">
+    <div class="container">
+      <header class="hero is-small is-bold p-2 my-2" id="controls-background">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            
+            <h2 class="subtitle is-bold has-text-light">Controls</h2>
+
+            <button onclick="connect()" class="button is-warning is-large">
+              🔗 <span class="mobile-only">Connect</span>
+              <span class="desktop-only">Connect to your ChestLock©</span>
+            </button>
+            
+
+            <div class="buttons is-centered mt-2">
+              <button onclick="sendCommand('UNLOCK')" class="button is-primary is-large">🔓 Unlock</button>
+              <button onclick="sendCommand('LOCK')" class="button is-danger is-large">🔒 Lock</button>
+            </div>
+
+
+            <p id="status" class="mt-4 has-text-light">Status: Not connected</p>
+          </div>
+        </div>
+      </header>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer has-text-centered">
+    <p id="footer-text">© Casey Blunt 2025</p>
+  </footer>
+</body>
+
+</html>
