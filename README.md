@@ -9,8 +9,9 @@ A collection of personal and portfolio projects spanning web development, softwa
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
 | [algo-visualizer](./algo-visualizer) | Interactive sorting and pathfinding algorithm visualizer with step-through mode | React, TypeScript, Vite | 🚧 In Progress |
-| [algo-visualizer](./algo-visualizer) | Interactive sorting and pathfinding algorithm visualizer with step-through mode | React, TypeScript, Vite | 🚧 In Progress |
-
+| [firebase projects (depreciated)](./firebase%20(depreciated)/) | Projects showcasing usage of Google Firebase. Due to lack of data changes, the token for these has expired. Code is still available through project folder | HTML, JavaScript, Google Firebase | Completed |
+| [Halo Audio Visualizer](./Halo%20Audio%20Visualizer/) | Music Visualizer with visual style options, multiple audios | TypeScript, Bulma, JavaScript, transpiled using Webpack | Completed |
+| [Chest Lock Web App](./IGME%20470-%20Physical%20Computing/) | Interactive web application utilizing an ESP32 and bluetooth to create a basic smart lock | Arduino, HTML, JavaScript | 🚧 In Progress |
 ---
 
 ## About
